@@ -5,3 +5,4 @@ class CreateViewers < ActiveRecord::Migration[6.1]
       t.string :viewer_email
   end
 end
+end

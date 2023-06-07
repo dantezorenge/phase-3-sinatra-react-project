@@ -8,3 +8,4 @@ class CreateMovies < ActiveRecord::Migration[6.1]
       t.string :movie_genre
   end
 end
+end

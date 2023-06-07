@@ -6,3 +6,4 @@ class CreateReviews < ActiveRecord::Migration[6.1]
       t.string :number_of_reviews
   end
 end
+end
