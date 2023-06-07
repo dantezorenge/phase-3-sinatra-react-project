@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2023_06_07_093424) do
 
   create_table "movies", force: :cascade do |t|
     t.string "title"
-    t.string "duration"
+    t.float "duration"
     t.string "description"
     t.string "imageurl"
     t.string "genre"
@@ -23,7 +23,8 @@ ActiveRecord::Schema.define(version: 2023_06_07_093424) do
   create_table "reviews", force: :cascade do |t|
     t.string "reviewer"
     t.string "review"
-    t.string "numberofreviews"
+    t.integer "number_of_reviews"
+    t.integer "likes"
   end
 
   create_table "viewers", force: :cascade do |t|

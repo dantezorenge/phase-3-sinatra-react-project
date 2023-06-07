@@ -1,5 +1,8 @@
-puts "🌱 Seeding spices..."
+require 'net/http'
+require 'json'
+require 'faker'
 
-# Seed your database here
+
+puts "🌱 Seeding spices..."
 
 puts "✅ Done seeding!"
