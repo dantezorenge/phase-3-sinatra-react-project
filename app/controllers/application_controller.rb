@@ -4,18 +4,18 @@ class ApplicationController < Sinatra::Base
   #Add yur routes here
 
   get '/movies' do 
-    mov = Movie.all
-    mov.to_json
+    movie = Movie.all
+    movie.to_json
   end
 
   get '/reviews' do 
-    rev = Review.all
-    rev.to_json
+    review = Review.all
+    review.to_json
   end
 
   get '/viewers' do 
-    view = Viewer.all
-    view.to_json
+    viewer = Viewer.all
+    viewer.to_json
   
   end
 

@@ -8,8 +8,11 @@ puts "Seeding Viewers..."
         name: Faker::Name.name,
         email: Faker::Internet.email
     )
-end
+
+    
 puts"done seeding viewers..." 
+
+
 
 puts "Seeding Reviews..." 
 50.times do 
